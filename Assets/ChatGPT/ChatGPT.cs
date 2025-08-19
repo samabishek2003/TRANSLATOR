@@ -25,7 +25,7 @@ namespace OpenAI
         private float height;
         private OpenAIApi openai;
 
-        private string jsonFileUrl = "https://drive.google.com/uc?export=download&id=1qz_udb7R2-3KuMr5NqloUamCDNI1sFHw";
+        private string jsonFileUrl = "";
 
         private void Start()
         {
