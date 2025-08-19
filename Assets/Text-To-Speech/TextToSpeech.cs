@@ -20,7 +20,7 @@ public class TextToSpeech : MonoBehaviour
     private void Start()
     {
         // Using hardcoded AWS credentials for educational purposes (delete after use)
-        awsCredentials = new BasicAWSCredentials("AKIAUPMYMYKVTIRCLSJE", "dViHeLUW7wlY5XaO9+WvzVOQqKMGXEFGqlCMtKdh");
+        awsCredentials = new BasicAWSCredentials("", "");
 
         // Use correct AWS region where Polly is supported for your account
         pollyClient = new AmazonPollyClient(awsCredentials, RegionEndpoint.USEast1);
